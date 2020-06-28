@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import HeaderRouteManager from '../components/header/HeaderRouteManager';
+import HeaderRouteManager from '../components/navigation/header/HeaderRouteManager';
 import FooterRouteManager from '../components/footer/FooterRouteManager';
 import Routes from '../components/Routes/Routes';
 import {BrowserRouter as Router} from 'react-router-dom';
@@ -10,11 +10,11 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+    <Router>
         <HeaderRouteManager/>
          <Routes/>
         <FooterRouteManager/>
-       </Router> 
+     </Router> 
     </div>
   );
 }

@@ -1,0 +1,20 @@
+.adjacent {
+
+    width: 50%; 
+    float: left; 
+    
+  
+}
+.adjacent3 {
+
+    width: 33%; 
+    float: left; 
+    height: 50%;
+  
+}
+
+.gradient {
+    background-color: black;
+    background-image: linear-gradient(to bottom right, blue, purple);
+    
+}

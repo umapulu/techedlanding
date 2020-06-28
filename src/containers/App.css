@@ -2,19 +2,4 @@
   text-align: center;
 }
 
-nav{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 10vh;
-  background: rgb(96, 123, 230);
-}
 
-.nav-links {
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  margin: 20px;
-}

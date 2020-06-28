@@ -1,14 +1,16 @@
 import React from 'react';
 import Aux from '../../../hoc/Aux';
+import '../Pages.css';
 
 function home() {
     return (
     <Aux>
-    <div>
-        <div>
+    <div className = {'gradient'}>
+        <div className = {'adjacent'}> 
             <h1>
-                Learn tech faster with personalized,
-                practical courses
+                Learn tech faster with 
+                personalized, practical 
+                courses
             </h1>
             <p>
                 Through our unique, personalized 
@@ -18,10 +20,10 @@ function home() {
             </p>
             <button> Schedule your free consultation</button>
         </div>
-         <img src = "/logo192.png" alt = ""/> 
+         <img className = {'adjacent'} src = "/logo192.png" alt = ""/> 
     </div>
-    <div>
-        <div>
+    <div className = {'gradient'}>
+        <div className = {'adjacent'}>
             <h1>
             Practical Content
             </h1>
@@ -34,11 +36,11 @@ function home() {
             course content.
             </p>
         </div>
-        <img src = "/logo192.png" alt = ""/> 
+        <img className = {'adjacent'} src = "/logo192.png" alt = ""/> 
     </div>
     <div>
-        <img src = "/logo192.png" alt = ""/> 
-        <div>
+        <img className = {'adjacent'} src = "/logo192.png" alt = ""/> 
+        <div className = {'adjacent'}>
             <h1>
             Personalized Lessons
             </h1>
@@ -53,7 +55,7 @@ function home() {
         </div>
     </div>
     <div>
-        <div>
+        <div className = {'adjacent'}>
             <h1>
             Collaborative Learning
             </h1>
@@ -66,8 +68,9 @@ function home() {
             course content.
             </p>
         </div>
-        <img src = "/logo192.png" alt = ""/> 
+        <img className = {'adjacent'} src = "/logo192.png" alt = ""/> 
     </div>
+    
     <div>
         <h1>How to get started</h1>
         <p>
@@ -75,38 +78,59 @@ function home() {
             get started on your path to 
             computer science mastery with TechEd
         </p>
+    
         <div>
-            <h1> 1 </h1>
-            <div>
+            <h1 className = {'adjacent3'}> 1 </h1>
+            <div className = {'adjacent3'}>
                 <h1>Schedule your call</h1>
                 <p>Schedule your free consultation 
                     with one of our specialists by 
                     following the link at the bottom </p>
             </div>  
-            <img src = "/logo192.png" alt = ""/>
+            <img className = {'adjacent3'} src = "/logo192.png" alt = ""/>
         </div>
         <div>
-            <h1> 2 </h1>
-            <div>
-                <h1>Schedule your call</h1>
-                <p>Schedule your free consultation 
-                    with one of our specialists by 
-                    following the link at the bottom </p>
-            </div>  
-            <img src = "/logo192.png" alt = ""/>
-        </div>
-        <div>
-            <h1> 3 </h1>
-            <div>
-                <h1>Customize your experience</h1>
+            <h1 className = {'adjacent3'}> 2 </h1>
+            <div className = {'adjacent3'}>
+            <h1>Customize your experience</h1>
                 <p>Choose from one of the above
                    pricing models and select
                    your area of study from one 
                    of our tutoring paths</p>
             </div>  
-            <img src = "/logo192.png" alt = ""/>
+            <img className = {'adjacent3'} src = "/logo192.png" alt = ""/>
+        </div>
+        <div>
+            <h1 className = {'adjacent3'}> 3 </h1>
+            <div className = {'adjacent3'}>
+                <h1>Start Learning</h1>
+                <p>Talk with your assigned tutor and 
+                    begin learning using our carefully 
+                    curated content
+                </p>
+            </div>  
+            <img className = {'adjacent3'} src = "/logo192.png" alt = ""/>
         </div>
     </div>
+   
+    <div>
+        <h1>
+            Want a free consultation?
+        </h1>
+        <button>
+            Schedule
+        </button>
+    </div>
+    <h1>
+        What people are saying about TechEd
+    </h1>
+    <caption>
+        names, position, quote and logo here
+    </caption>
+    <h1>
+        Teachers from leading and prominent world organizations
+    </h1>
+    <img src = "/logo192.png" alt = ""/>
 
       
     </Aux>
