@@ -15,7 +15,7 @@ function pricing() {
             </div>
             <img className = {'adjacent'} src = "/logo192.png" alt = ""/>
         </div>
-        <div>
+        <div className = {'adjacent3list'}>
             <div className = {'adjacent3'}>
                 <img src = "/logo192.png" alt = ""/>
                 <h1>Group</h1>
@@ -65,15 +65,15 @@ function pricing() {
                 <img src = "/logo192.png" alt = ""/>
             </div>
         </div> 
-        <div>
+        
             <h1>How to get started</h1>
             <p>
                 Here’s a quick breakdown on how to 
                 get started on your path to 
                 computer science mastery with TechEd
             </p>
-        
-            <div>
+        <div >
+            <div className = {'adjacent3list'}>
                 <h1 className = {'adjacent3'}> 1 </h1>
                 <div className = {'adjacent3'}>
                     <h1>Schedule your call</h1>
@@ -83,7 +83,7 @@ function pricing() {
                 </div>  
                 <img className = {'adjacent3'} src = "/logo192.png" alt = ""/>
             </div>
-            <div>
+            <div  className = {'adjacent3list'}>
                 <h1 className = {'adjacent3'}> 2 </h1>
                 <div className = {'adjacent3'}>
                 <h1>Customize your experience</h1>
@@ -94,8 +94,8 @@ function pricing() {
                 </div>  
                 <img className = {'adjacent3'} src = "/logo192.png" alt = ""/>
             </div>
-            <div>
-                <h1 className = {'adjacent'}> 3 </h1>
+            <div className = {'adjacent3list'}>
+                <h1 className = {'adjacent3'}> 3 </h1>
                 <div className = {'adjacent3'}>
                     <h1>Start Learning</h1>
                     <p>Talk with your assigned tutor and 
@@ -106,7 +106,7 @@ function pricing() {
                 <img className = {'adjacent3'} src = "/logo192.png" alt = ""/>
             </div>
         </div>
-        <button>Schedule your free consultation</button>
+        <button className = {'button'}>Schedule your free consultation</button>
     </Aux>   
     );
 }

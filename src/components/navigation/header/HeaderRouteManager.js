@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Navigation.css';
 import {Link} from 'react-router-dom';
+import logo from '../../../assets/TechEdLogo.png';
 
 const headerRouteManager = () => {
 
@@ -8,7 +9,7 @@ const headerRouteManager = () => {
     <nav>
         <div>
             <Link to = '/'>
-                <h3>TechEd Logo</h3>
+            <img src = {logo} alt = ""/>
             </Link>  
         </div>
         <ul className = 'nav-links'>

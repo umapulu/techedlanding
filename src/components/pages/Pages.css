@@ -2,14 +2,16 @@
 
     width: 50%; 
     float: left; 
+    height: 500px;
+    
     
   
 }
 .adjacent3 {
 
-    width: 33%; 
-    float: left; 
-    height: 50%;
+    width: 200px; 
+    float: left;
+    
   
 }
 
@@ -18,3 +20,44 @@
     background-image: linear-gradient(to bottom right, blue, purple);
     
 }
+.purple {
+    background-color: #0D19A3;
+
+}
+
+.white {
+    background-color: white;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.button {
+        background-color: #15DB95;
+        color: white;
+        font: inherit;
+        padding: 8px;
+        cursor: pointer;
+      }
+
+.green-outline {
+    border: 3px solid #15DB95;
+    width: 400px;
+    height:100px;
+    padding: 20px;
+    justify-content: center;
+    margin: 100px;
+}
+
+.adjacent3list {
+    height: 300px;
+    justify-content: center; 
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+
