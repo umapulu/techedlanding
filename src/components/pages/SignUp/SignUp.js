@@ -1,5 +1,5 @@
 import React from 'react';
-import icon from '../../../assets/loginIcon.png'
+import icon from '../../../assets/LoginIcon.png'
 
 function signUp() {
     return (
