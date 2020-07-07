@@ -1,17 +1,22 @@
 .adjacent {
 
-    width: 50%; 
-    float: left; 
-    height: 500px;
-    
-    
-  
+    width: 400px; 
+    height: 300px;
+    display: inline-block;      
+}
+.adjacent-list {
+    text-align: center;
+}
+.adjacent4 {
+    width: 200px; 
+    text-align: center;
+    display: inline-block; 
+    height: 300px;
 }
 .adjacent3 {
 
     width: 200px; 
-    float: left;
-    
+    display: inline-block; 
   
 }
 
@@ -25,12 +30,15 @@
 
 }
 
+.block {
+    height: 600px;
+}
 .white {
     background-color: white;
 }
 
-.lightblue {
-    background-color: lightblue;
+.light-blue {
+    background-color: lightblue;   
 }
 
 .button {
@@ -39,6 +47,8 @@
         font: inherit;
         padding: 8px;
         cursor: pointer;
+        text-decoration: none;
+        margin: 20px;
       }
 
 .green-outline {
@@ -46,18 +56,20 @@
     width: 400px;
     height:100px;
     padding: 20px;
-    justify-content: center;
-    margin: 100px;
+    display: inline-block;
+    margin: 10px;
 }
 
 .adjacent3list {
-    height: 300px;
-    justify-content: center; 
-    padding-left: 10%;
-    padding-right: 10%;
-    overflow: hidden;
-    width: 100%;
+    height: 300px;    
+    text-align: center;
     
 }
+
+.list {
+    text-align: left;
+    width: 600px;
+}
+
 
 

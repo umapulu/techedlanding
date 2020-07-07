@@ -1,11 +1,12 @@
 import React from 'react';
 import Aux from '../../../hoc/Aux';
 import '../Pages.css';
+import universities from '../../../assets/Universities.png';
 
 function home() {
     return (
-    <Aux>
     <div className = {'purple'}>
+    <div className = {'adjacent-list'}>
         <div className = {'adjacent'}> 
             <h1>
                 Learn tech faster with 
@@ -18,11 +19,11 @@ function home() {
                 we provide the best possible 
                 platform to learn 
             </p>
-            <button className = {'button'}> Schedule your free consultation</button>
+            <a href = "contact" className = {'button'}> Schedule your free consultation</a>
         </div>
          <img className = {'adjacent'} src = "/logo192.png" alt = ""/> 
     </div>
-    <div className = {'gradient'}>
+    <div>
         <div className = {'adjacent'}>
             <h1>
             Practical Content
@@ -117,9 +118,9 @@ function home() {
         <h3>
             Want a free consultation?
         </h3>
-        <button className = {'button'}>
+        <a href = "contact" className = {'button'}>
             Schedule
-        </button>
+        </a>
     </div>
     <h1>
         What people are saying about TechEd
@@ -130,10 +131,10 @@ function home() {
     <h1>
         Teachers from leading and prominent world organizations
     </h1>
-    <img src = "/logo192.png" alt = ""/>
+    <img src = {universities} alt = ""/>
 
       
-    </Aux>
+    </div>
         
     );
 }

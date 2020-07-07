@@ -45,7 +45,7 @@ function ourDifference() {
 
             <h1>Courses</h1>
             <p>Each course is designed to take approximately 40 hours to complete but depends on student pace</p>
-            <div className = {'lightblue'}>
+            <div className = {'light-blue'}>
                 <h2>Scratch Coding </h2>
                 <p>Topics Covered: Data Structures, Conditional Statements, Loops, Functions, Classes</p>
                 <p>Summary: This course provides an overview of the AP Computer Science A syllabus and  material. 
@@ -59,7 +59,7 @@ function ourDifference() {
             It consists of coding projects every class session to ensure that skills are being  practiced,
                 as well as homework problems. The course concludes in a capstone project which  is 
                 personalized to the student and designed in collaboration with their assigned tutor </p>
-            <div className = {'lightblue'}>
+            <div className = {'light-blue'}>
                 <h2>C++ Programming </h2>
                 <p>Topics Covered: Data Structures, Conditional Statements, Loops, Functions, Classes</p>
                 <p>Summary: This course provides an overview of the AP Computer Science A syllabus and  material. 

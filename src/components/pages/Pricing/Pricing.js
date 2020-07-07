@@ -11,13 +11,13 @@ function pricing() {
                     needs at an affordable point. Choose from our
                     plans which are all billed on a monthly basis.
                 </p>
-                <button>Schedule your free consultation</button>
+                <a href = "contact" className = {'button'} >Schedule your free consultation</a>
             </div>
-            <img className = {'adjacent'} src = "/logo192.png" alt = ""/>
+            <img className = {'adjacent'} src = "/logo192.png" alt = "" />
         </div>
         <div className = {'adjacent3list'}>
             <div className = {'adjacent3'}>
-                <img src = "/logo192.png" alt = ""/>
+                <img src = "/logo192.png" alt = "" height = "100" width = "100"/>
                 <h1>Group</h1>
                 <h3>$210/month</h3>
                 <p>3:1 student to teacher ratio
@@ -26,7 +26,7 @@ function pricing() {
                 </p>
             </div>
             <div className = {'adjacent3'}>
-                <img src = "/logo192.png" alt = ""/>
+                <img src = "/logo192.png" alt = "" height = "100" width = "100"/>
                 <h1>Individual</h1>
                 <h3>$310/month</h3>
                 <p> 1:1 student to teacher ratio
@@ -35,7 +35,7 @@ function pricing() {
                 </p>
             </div>
             <div className = {'adjacent3'}>
-                <img src = "/logo192.png" alt = ""/>
+                <img src = "/logo192.png" alt = "" height = "100" width = "100"/>
                 <h1>Customized</h1>
                 <h3>Flexible</h3>
                 <p>Schedule your free consultation 
@@ -45,24 +45,26 @@ function pricing() {
             </div>
         </div>
         <div>
-            <div>
+            <div className = {'white'}>
                 <h1>Summer 2020 Bootcamps</h1>
-                <ul>
+                <ul className = {'list'}> 
                     <li>Flexible scheduling and rescheduling process</li>
                     <li>Dedicated instructor to guide and advise you</li>
                     <li>Personalized progress and session reports shared</li>
                     <li>Project-based learning, personalized per student</li>
                 </ul>
             </div>
-            <div>
+            <div className = {'light-blue'}>
                 <h1>Across all our plans</h1>
-                <ul>
-                    <li>Flexible scheduling and rescheduling process</li>
-                    <li>Dedicated instructor to guide and advise you</li>
-                    <li>Personalized progress and session reports shared</li>
-                    <li>Project-based learning, personalized per student</li>
-                </ul>
-                <img src = "/logo192.png" alt = ""/>
+                <div>
+                    <ul className = {'list'}>
+                        <li>Flexible scheduling and rescheduling process</li>
+                        <li>Dedicated instructor to guide and advise you</li>
+                        <li>Personalized progress and session reports shared</li>
+                        <li>Project-based learning, personalized per student</li>
+                    </ul>
+                    <img src = "/logo192.png" alt = "" height = "100" width = "100"/>
+                </div>
             </div>
         </div> 
         

@@ -10,6 +10,7 @@ import SignUp from '../pages/SignUp/SignUp';
 import FAQ from '../pages/FAQ/FAQ';
 import Terms from '../pages/Terms/Terms';
 import Careers from '../pages/Careers/Careers';
+import ForgotPassword from '../pages/ForgotPassword/ForgotPassword';
 
 const routes = () => {
     return (
@@ -24,6 +25,7 @@ const routes = () => {
             <Route path = '/FAQ/' component = {FAQ}/>
             <Route path = '/terms' component = {Terms}/>
             <Route path = '/careers' component = {Careers}/>
+            <Route path = '/forgot-password' component = {ForgotPassword}/>
             <Route path = '/' component = {Home}/>
         </Switch>
     
