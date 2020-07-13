@@ -1,15 +1,17 @@
 import React from 'react';
 import '../Pages.css';
+import Aux from '../../../hoc/Aux'
 
 function ourDifference() {
     return (
-        <div>
-            <h1>Industry level standards with project-based learning</h1>
-            <p>Our practical course offerings are carefully created with
-                 each student in mind. We offer a variety of personalized 
-                 project-based courses for your needs</p>
-
-         <div  className = {'adjacent3list'}> 
+        <Aux>
+            <div className = {'purple'}>
+                <h1>Industry level standards with project-based learning</h1>
+                <p>Our practical course offerings are carefully created with
+                    each student in mind. We offer a variety of personalized 
+                    project-based courses for your needs</p>
+            </div>
+         <div  className = {'adjacent-list'}> 
             <div className = {'adjacent3'}>
                 <img src = "/logo192.png" alt = "" height = "100" width = "100"/>
                 <h3>Collaborative Learning</h3>
@@ -77,7 +79,7 @@ function ourDifference() {
                 
                 
                 
-        </div>
+        </Aux>
     );
 }
 

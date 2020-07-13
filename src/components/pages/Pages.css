@@ -1,18 +1,14 @@
 .adjacent {
 
     width: 400px; 
-    height: 300px;
-    display: inline-block;      
+    display: inline-block;  
+
 }
+
 .adjacent-list {
     text-align: center;
 }
-.adjacent4 {
-    width: 200px; 
-    text-align: center;
-    display: inline-block; 
-    height: 300px;
-}
+
 .adjacent3 {
 
     width: 200px; 
@@ -20,19 +16,25 @@
   
 }
 
+.adjacent4 {
+    width: 200px; 
+    text-align: center;
+    display: inline-block; 
+    height: 300px;
+}
+
 .gradient {
     background-color: black;
     background-image: linear-gradient(to bottom right, blue, purple);
     
 }
+
 .purple {
     background-color: #0D19A3;
+    color: white;
 
 }
 
-.block {
-    height: 600px;
-}
 .white {
     background-color: white;
 }
@@ -60,16 +62,45 @@
     margin: 10px;
 }
 
-.adjacent3list {
-    height: 300px;    
+.list {
+    text-align: left;
+    width: 500px;
+    display: inline-block; 
+    margin-left: 40px;
+}
+
+.login {
+    width:200px;
+    margin:20px;
+    border:1px #CCC solid;
+    padding:10px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: lightgray;
+    }
+.login-image {
     text-align: center;
+}
+    
+.login-button {
+    background-color:#0D19A3;
+    color: white;
+    font: inherit;
+    padding: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    display: inline-block;
     
 }
 
-.list {
-    text-align: left;
-    width: 600px;
+.login-input {
+padding:5px;
+margin:5px;
 }
-
 
 

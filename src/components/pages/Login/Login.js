@@ -3,14 +3,12 @@ import icon from '../../../assets/LoginIcon.png'
 function login() {
     return (
        
-        <div>
+        <div className = {'login-image'}>
             <img src = {icon} alt = ""/>
-            <form>
-                <h3>Username</h3>
-                <input type="text" title="username" placeholder="username" />
-                <h3>Password</h3>
-                <input type="password" title="username" placeholder="password" />
-                <button type="submit">Login</button>
+            <form className = {'login'}>               
+                <input className = {'login-input'} type="text" title="username" placeholder="username" />
+                <input className = {'login-input'}  type="password" title="username" placeholder="password" />
+                <button className = {'login-button'} type="submit">Login</button>
                 <a href="forgot-password"> Forgot Password?</a>
             </form>
         </div>

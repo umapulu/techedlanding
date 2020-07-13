@@ -15,7 +15,7 @@ function pricing() {
             </div>
             <img className = {'adjacent'} src = "/logo192.png" alt = "" />
         </div>
-        <div className = {'adjacent3list'}>
+        <div className = {'adjacent-list'}>
             <div className = {'adjacent3'}>
                 <img src = "/logo192.png" alt = "" height = "100" width = "100"/>
                 <h1>Group</h1>
@@ -75,7 +75,7 @@ function pricing() {
                 computer science mastery with TechEd
             </p>
         <div >
-            <div className = {'adjacent3list'}>
+            <div className = {'adjacent-list'}>
                 <h1 className = {'adjacent3'}> 1 </h1>
                 <div className = {'adjacent3'}>
                     <h1>Schedule your call</h1>
@@ -85,7 +85,7 @@ function pricing() {
                 </div>  
                 <img className = {'adjacent3'} src = "/logo192.png" alt = ""/>
             </div>
-            <div  className = {'adjacent3list'}>
+            <div  className = {'adjacent-list'}>
                 <h1 className = {'adjacent3'}> 2 </h1>
                 <div className = {'adjacent3'}>
                 <h1>Customize your experience</h1>
@@ -96,7 +96,7 @@ function pricing() {
                 </div>  
                 <img className = {'adjacent3'} src = "/logo192.png" alt = ""/>
             </div>
-            <div className = {'adjacent3list'}>
+            <div className = {'adjacent-list'}>
                 <h1 className = {'adjacent3'}> 3 </h1>
                 <div className = {'adjacent3'}>
                     <h1>Start Learning</h1>

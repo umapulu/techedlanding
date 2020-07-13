@@ -1,21 +1,21 @@
 import React from 'react';
 import icon from '../../../assets/LoginIcon.png'
-
+import Aux from '../../../hoc/Aux';
 function signUp() {
     return (
-        <div>
+        <Aux>
             <div>
             <img src = {icon} alt = ""/>
-            <form>
-                <h3>Username</h3>
-                <input type="text" title="username" placeholder="username" />
-                <h3>Password</h3>
-                <input type="password" title="username" placeholder="password" />
-                <input type="password" title="username" placeholder="re-enter password"/>
-                <button type="submit">Register</button>
+            <form className = {'login'}>
+                <input className = {'login-input'} type="text" title="username" placeholder="name"/>
+                <input className = {'login-input'} type="text" title="username" placeholder="username" />
+                <input className = {'login-input'} type="password" title="username" placeholder="password" />
+                <input className = {'login-input'} type="password" title="username" placeholder="re-enter password"/>
+                <button className = {'login-button'}type="submit">Register</button>
             </form>
             </div>
-        </div>
+        </Aux>
+        
     );
 }
 
