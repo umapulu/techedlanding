@@ -12,26 +12,26 @@ const headerRouteManager = () => {
             <img src = {logo} alt = ""/>
             </Link>  
         </div>
-        <ul className = 'nav-links'>
+        <div className = 'nav-links'>
             <Link to= '/about'>
-                <li>About</li>
+                <b className = {'header-link'}>About</b>
             </Link>
             <Link to= '/pricing'>
-                <li>Pricing</li>
+                <b className = {'header-link'} >Pricing</b>
             </Link>
             <Link to = '/our-difference'>
-                <li>Our Difference</li>
+                <b className = {'header-link'}>Our Difference</b>
             </Link>
             <Link to = '/contact'>
-                <li>Contact</li>
+                <b className = {'header-link'}>Contact</b>
             </Link>
             <Link to = '/login'>
-                <li>Login</li>
+                <button>Login</button>
             </Link>
             <Link to = '/sign-up'>
-                <li>Sign Up</li>
+                <button>Sign Up</button>
             </Link>
-        </ul>
+        </div>
     </nav>
     )
 }

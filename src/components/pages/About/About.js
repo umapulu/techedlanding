@@ -6,12 +6,13 @@ import vishal from '../../../assets/Vishal.png';
 import anirudh from '../../../assets/Anirudh.png';
 function about() {
     return (
-        <div>           
-                
+        <div className = 'purple'>                 
+            <div className = 'title'>  
                 <h1>
                 Our Story
                 </h1>
-                <div>
+                <div> 
+                <b>
                 Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt 
@@ -22,11 +23,13 @@ function about() {
                 Duis aute irure dolor in reprehenderit
                 in voluptate velit esse cillum dolore 
                 eu fugiat nulla pariatur.
+                </b>
                 </div>
+            </div>         
             <div>
                 <h1>Meet the TechEd team</h1>
-                <div className = {'adjacent'}>
-                    <div className = {'adjacent4'}>
+                <div className ='adjacent'>
+                    <div className ='adjacent4'>
                         <img src = {nishant} alt = "" width= '175' height = '150'/>
                         <h2>Nishant Jain </h2>
                         <h3>Co-founder & CFO</h3>
@@ -38,7 +41,7 @@ function about() {
                         minim veniam, quis nostrud 
                         exercitation ullamco    
                     </div>
-                    <div className = {'adjacent4'}>
+                    <div className = 'adjacent4'>
                         <img src = {sauren} alt = "" width= '175' height = '150'/>  
                         <h2> Sauren Gupta</h2> 
                         <h3>Co-founder & CEO</h3>
@@ -51,8 +54,8 @@ function about() {
                         exercitation ullamco    
                     </div>
                 </div>
-                <div className = {'adjacent'}>
-                    <div className = {'adjacent4'}>
+                <div className = 'adjacent'>
+                    <div className = 'adjacent4'>
                         <img src = {vishal} alt = "" width= '175' height = '150'/>
                         <h2>Vishal Dubey </h2>
                         <h3>Co-founder & CTO</h3>
@@ -64,7 +67,7 @@ function about() {
                         minim veniam, quis nostrud 
                         exercitation ullamco    
                     </div>
-                    <div className = {'adjacent4'}>
+                    <div className = 'adjacent4'>
                     <img src = {anirudh} alt = "" width= '175' height = '150'/>
                         <h2>Ani Bala </h2>
                         <h3>Co-founder & COO</h3>
@@ -79,12 +82,12 @@ function about() {
                 </div>
             </div>
             <div>
-                <h1>Interested in joining the team?</h1>
-                <a className = {'button'} href = "careers"> Join Now </a> 
+                <h2>Interested in joining the team?</h2>
+                <a className = 'button' href = "careers"> Join Now </a> 
             </div>
             <div>
-                <h1>Interested in getting started?</h1> 
-                <a href = "contact" className = {'button'}>Schedule your free consultations</a>
+                <h2>Interested in getting started?</h2> 
+                <a href = "contact" className = 'button'> Schedule your free consultations</a>
             </div>
         </div>
     );

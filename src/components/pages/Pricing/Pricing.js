@@ -4,7 +4,7 @@ import '../Pages.css';
 function pricing() {
     return (
     <Aux>
-        <div>
+        <div className = {'purple'}> 
             <div className = {'adjacent'} >
                 <h1>Pricing Suited to your needs </h1>
                 <p>We offer a variety of pricing options for your 

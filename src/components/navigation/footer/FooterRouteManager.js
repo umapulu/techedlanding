@@ -15,30 +15,30 @@ const footerButtonManager = () => {
         <div>
             <div className = 'nav-links'>
                 <Link to= '/about'>
-                    <li>About</li>
+                    <p className = {'header-link'}>About</p>
                 </Link>
                 <Link to= '/careers'> 
-                    <li>Careers</li>
+                    <p className = {'header-link'}>Careers</p>
                 </Link>
                 <Link to = '/sign-up'>
-                    <li>Register</li>
+                    <p className = {'header-link'}>Register</p>
                 </Link>
                 <Link to = '/login'>
-                    <li>Login</li>
+                    <p className = {'header-link'}>Login</p>
                 </Link>
             </div>    
             <div className = 'nav-links'>
                 <Link to = '/terms'>
-                    <li>Terms</li>
+                    <p className = {'header-link'}>Terms</p>
                 </Link>
                 <Link to = '/FAQ'>
-                    <li>FAQ</li>
+                    <p className = {'header-link'}>FAQ</p>
                 </Link>
                 <Link to= '/pricing'>
-                    <li>Pricing</li>
+                    <p className = {'header-link'}>Pricing</p>
                 </Link>
                 <Link to = '/contact'>
-                    <li>Contact Us</li>
+                    <p className = {'header-link'}>Contact Us</p>
                 </Link>
           </div>  
       </div>
