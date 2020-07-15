@@ -6,7 +6,7 @@ function ourDifference() {
     return (
         <Aux>
         <div className = {'purple'}>
-            <div className = {'title'}>
+            <div className = {'left-title'}>
                 <h1>Industry level standards with project-based learning</h1>
                 <p>Our practical course offerings are carefully created with
                     each student in mind. We offer a variety of personalized 

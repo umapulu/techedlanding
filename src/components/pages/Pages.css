@@ -35,7 +35,13 @@
     display: inline-block;
     width: 600px;
     height: 200px;
+}
+
+.left-title {
     text-align: left;
+    display: inline-block;
+    width: 600px;
+    height: 200px;
 }
 
 .purple {
