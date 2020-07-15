@@ -9,7 +9,7 @@ function login() {
             <div>
                 <form className = {'login'}>               
                     <input className = {'login-input'} type="text" title="username" placeholder="username" />
-                    <input className = {'login-input'}  type="password" title="username" placeholder="password" />
+                    <input className = {'login-input'}  type="password" title="password" placeholder="password" />
                     <button className = {'login-button'} type="submit">Login</button>
                     <a href="forgot-password"> Forgot Password?</a>
                 </form>

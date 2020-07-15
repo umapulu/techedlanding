@@ -2,7 +2,8 @@
 
     width: 400px; 
     display: inline-block;  
-
+    margin: auto;
+    text-align: left;
 }
 
 .adjacent3 {
@@ -34,11 +35,13 @@
     display: inline-block;
     width: 600px;
     height: 200px;
+    text-align: left;
 }
 
 .purple {
     background-color: #0D19A3;
     color: white;
+    padding: 30px;
 }
 
 .white {
@@ -69,11 +72,24 @@
     margin: 10px;
 }
 
-.list {
+ul {
     text-align: left;
     width: 500px;
     display: inline-block; 
     margin-left: 40px;
+    list-style-type: square;
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+
+}
+
+ul li::before {
+    content: "\2022";  
+    color: #15DB95; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 15px;
 }
 
 .login {

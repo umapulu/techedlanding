@@ -53,6 +53,7 @@ function pricing() {
                     <li>Personalized progress and session reports shared</li>
                     <li>Project-based learning, personalized per student</li>
                 </ul>
+                <img src = "/logo192.png" alt = "" height = "100" width = "100"/>
             </div>
             <div className = {'light-blue'}>
                 <h1>Across all our plans</h1>
@@ -74,40 +75,40 @@ function pricing() {
                 get started on your path to 
                 computer science mastery with TechEd
             </p>
-        <div >
-            <div className = {'adjacent-list'}>
-                <h1 className = {'adjacent3'}> 1 </h1>
-                <div className = {'adjacent3'}>
-                    <h1>Schedule your call</h1>
-                    <p>Schedule your free consultation 
-                        with one of our specialists by 
-                        following the link at the bottom </p>
-                </div>  
-                <img className = {'adjacent3'} src = "/logo192.png" alt = ""/>
-            </div>
-            <div  className = {'adjacent-list'}>
-                <h1 className = {'adjacent3'}> 2 </h1>
-                <div className = {'adjacent3'}>
-                <h1>Customize your experience</h1>
-                    <p>Choose from one of the above
-                    pricing models and select
-                    your area of study from one 
-                    of our tutoring paths</p>
-                </div>  
-                <img className = {'adjacent3'} src = "/logo192.png" alt = ""/>
-            </div>
-            <div className = {'adjacent-list'}>
-                <h1 className = {'adjacent3'}> 3 </h1>
-                <div className = {'adjacent3'}>
-                    <h1>Start Learning</h1>
-                    <p>Talk with your assigned tutor and 
-                        begin learning using our carefully 
-                        curated content
-                    </p>
-                </div>  
-                <img className = {'adjacent3'} src = "/logo192.png" alt = ""/>
-            </div>
+            <div>
+        <div className = {'adjacent3list'}>
+            <h1 className = {'adjacent3'}> 1 </h1>
+            <div className = {'adjacent3'}>
+                <h1>Schedule your call</h1>
+                <p>Schedule your free consultation 
+                    with one of our specialists by 
+                    following the link at the bottom </p>
+            </div>  
+            <img className = {'adjacent3'} src = "/logo192.png" alt = ""/>
         </div>
+        <div className = {'adjacent3list'}>
+            <h1 className = {'adjacent3'}> 2 </h1>
+            <div className = {'adjacent3'}>
+            <h1>Customize your experience</h1>
+                <p>Choose from one of the above
+                   pricing models and select
+                   your area of study from one 
+                   of our tutoring paths</p>
+            </div>  
+            <img className = {'adjacent3'} src = "/logo192.png" alt = ""/>
+        </div>
+        <div className = {'adjacent3list'}>
+            <h1 className = {'adjacent3'}> 3 </h1>
+            <div className = {'adjacent3'}>
+                <h1>Start Learning</h1>
+                <p>Talk with your assigned tutor and 
+                    begin learning using our carefully 
+                    curated content
+                </p>
+            </div>  
+            <img className = {'adjacent3'} src = "/logo192.png" alt = ""/>
+        </div>
+    </div>
         <button className = {'button'}>Schedule your free consultation</button>
     </Aux>   
     );

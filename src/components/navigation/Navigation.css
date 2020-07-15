@@ -20,3 +20,47 @@ nav{
     color:white;
     margin: 10px;
   }
+
+  .purple-button {
+    background-color:rgb(78, 13, 163);
+    color: white;
+    font: inherit;
+    padding: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100px;
+    margin: 10px;
+    margin-left: 10px;
+    border-radius: 15px; 
+  }
+
+    .round-button {
+      background-color: #15DB95;
+      color: white;
+      font: inherit;
+      padding: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      margin: 5px;
+      display: inline-block;
+      border-radius: 15px; 
+    }
+
+    .contact-input1 {
+      width: 150px;
+      height: 20px;
+      display: inline-block;
+      margin: 7px;
+    }
+
+    .contact-input2 {
+      width: 320px;
+      height: 20px;
+      margin: 5px;
+    }
+    .contact-input3 {
+      width: 320px;
+      height: 100px;
+      margin: 5px;
+
+    }

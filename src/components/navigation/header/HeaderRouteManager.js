@@ -26,10 +26,10 @@ const headerRouteManager = () => {
                 <b className = {'header-link'}>Contact</b>
             </Link>
             <Link to = '/login'>
-                <button>Login</button>
+                <button className = 'round-button'>Login</button>
             </Link>
             <Link to = '/sign-up'>
-                <button>Sign Up</button>
+                <button className = 'purple-button'>Sign Up</button>
             </Link>
         </div>
     </nav>
